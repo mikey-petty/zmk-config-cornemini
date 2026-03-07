@@ -208,10 +208,10 @@
         WIN {
             display-name = "Win Base";
             bindings = <
-&trans  &kp Q               &kp W           &kp F               &lt 2 P    &lt 4 G     &kp J    &kp L    &kp U                &kp Y            &kp SEMI               &trans
-&trans  &hm LEFT_COMMAND A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &lt 3 T    &kp D       &kp H    &kp N    &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_GUI O        &trans
-&trans  &hm LEFT_SHIFT Z    &kp X           &kp C               &kp V      &kp B       &kp K    &kp M    &kp COMMA            &kp DOT          &hm RIGHT_SHIFT SLASH  &trans
-                                            &kp LSHFT           &kp SPACE  &kp BSPC    &kp TAB  &kp RET  &kp RSHFT
+&trans  &kp Q               &kp W           &kp F           &lt 2 P    &lt 4 G     &kp J    &kp L    &kp U           &kp Y            &kp SEMI               &trans
+&trans  &hm LEFT_CONTROL A  &hm LEFT_ALT R  &hm LEFT_WIN S  &lt 3 T    &kp D       &kp H    &kp N    &hm LEFT_GUI E  &hm RIGHT_ALT I  &hm RIGHT_CONTROL O    &trans
+&trans  &hm LEFT_SHIFT Z    &kp X           &kp C           &kp V      &kp B       &kp K    &kp M    &kp COMMA       &kp DOT          &hm RIGHT_SHIFT SLASH  &trans
+                                            &kp LSHFT       &kp SPACE  &kp BSPC    &kp TAB  &kp RET  &kp RSHFT
             >;
         };
 
@@ -242,10 +242,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp LS(DQT)  &kp MINUS     &kp LS(STAR)  &kp LS(PLUS)  &kp EQUAL      &trans
-&trans  &trans    &kp LS(LBRC)    &kp LBKT        &kp LS(LPAR)     &kp UNDER    &kp SQT      &kp LS(RPAR)  &kp RBKT      &kp LS(RBRC)  &kp LS(AMPS)   &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp GRAVE    &kp LBKT      &kp LS(PIPE)  &kp LS(EXCL)  &kp LS(QMARK)  &trans
-                                  &kp LGUI        &mo 4            &kp SPACE    &kp RET      &trans        &tog 3
+&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp LS(DQT)   &kp MINUS     &kp LS(STAR)  &kp LS(PLUS)  &kp EQUAL      &trans
+&trans  &trans    &kp LS(LBRC)    &kp LBKT        &kp LS(LPAR)     &kp UNDER    &kp SQT       &kp LS(RPAR)  &kp RBKT      &kp LS(RBRC)  &kp LS(AMPS)   &trans
+&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp GRAVE     &kp LBKT      &kp LS(PIPE)  &kp LS(EXCL)  &kp LS(QMARK)  &trans
+                                  &kp LGUI        &kp LEFT         &kp RIGHT    &kp UP_ARROW  &kp DOWN      &tog 3
             >;
         };
 
