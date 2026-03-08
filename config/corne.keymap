@@ -53,7 +53,6 @@
         tog_lock: toggle_layer_lock {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
-            toggle-mode = "on";
             locking;
         };
     };
