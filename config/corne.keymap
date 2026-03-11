@@ -258,7 +258,7 @@
 &trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp LS(DQT)   &kp MINUS     &kp LS(STAR)  &kp LS(PLUS)  &kp EQUAL      &trans
 &trans  &trans    &kp LS(LBRC)    &kp LBKT        &kp LS(LPAR)     &kp UNDER    &kp SQT       &kp LS(RPAR)  &kp RBKT      &kp LS(RBRC)  &kp LS(AMPS)   &trans
 &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp GRAVE     &kp LBKT      &kp LS(PIPE)  &kp LS(EXCL)  &kp LS(QMARK)  &trans
-                                  &kp LGUI        &kp LEFT         &kp RIGHT    &kp UP_ARROW  &kp DOWN      &sl 3
+                                  &tog_off 3      &kp LEFT         &kp RIGHT    &kp UP_ARROW  &kp DOWN      &tog_on 3
             >;
         };
 
