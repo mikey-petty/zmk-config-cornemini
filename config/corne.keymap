@@ -222,7 +222,7 @@
             display-name = "Win Base";
             bindings = <
 &trans  &kp Q               &kp W           &kp F           &lt 2 P    &lt 4 G     &kp J    &kp L    &kp U           &kp Y            &kp SEMI               &trans
-&trans  &hm LEFT_CONTROL A  &hm LEFT_ALT R  &hm LEFT_WIN S  &lt 3 T    &kp D       &kp H    &kp N    &hm LEFT_GUI E  &hm RIGHT_ALT I  &hm RIGHT_CONTROL O    &trans
+&trans  &hm LEFT_CONTROL A  &hm LEFT_ALT R  &hm LEFT_WIN S  &lt 3 T    &kp D       &kp H    &lt 3 N  &hm LEFT_GUI E  &hm RIGHT_ALT I  &hm RIGHT_CONTROL O    &trans
 &trans  &hm LEFT_SHIFT Z    &kp X           &kp C           &kp V      &kp B       &kp K    &kp M    &kp COMMA       &kp DOT          &hm RIGHT_SHIFT SLASH  &trans
                                             &kp LSHFT       &kp SPACE  &kp BSPC    &kp TAB  &kp RET  &kp RSHFT
             >;
@@ -238,10 +238,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC     &trans    &kp UP    &kp END          &kp HOME         &kp LS(STAR)  &kp N7        &kp N8       &kp N9        &kp EQUAL  &trans
-&trans  &hm LGUI A  &kp LEFT  &kp DOWN  &kp RIGHT        &kp PAGE_UP      &kp LS(PLUS)  &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &kp MINUS  &trans
-&trans  &kp DEL     &kp LEFT  &kp DOWN  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp LS(STAR)  &kp N1        &kp N2       &kp N3        &kp FSLH   &kp BSPC
-                              &kp LGUI  &trans           &kp SPACE        &kp RET       &mo 4         &tog 2
+&trans  &kp ESC     &trans    &kp UP      &kp END          &kp HOME         &kp LS(STAR)  &kp N7        &kp N8       &kp N9        &kp EQUAL  &trans
+&trans  &hm LGUI A  &kp LEFT  &kp DOWN    &kp RIGHT        &kp PAGE_UP      &kp LS(PLUS)  &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &kp MINUS  &trans
+&trans  &kp DEL     &kp LEFT  &kp DOWN    &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp LS(STAR)  &kp N1        &kp N2       &kp N3        &kp FSLH   &kp BSPC
+                              &tog_off 2  &trans           &kp SPACE        &kp RET       &mo 4         &tog_on 2
             >;
         };
 
