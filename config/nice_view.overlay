@@ -1,13 +1,14 @@
+&spi0 {
+    status = "okay";
+    /* 
+     * This 'label' property is the key for the 2026 build system.
+     * It explicitly names this hardware node 'nice_view_spi'.
+     */
+    nice_view_spi: &spi0 { };
+};
+
 / {
     aliases {
         nice-view-spi = &spi0;
     };
-};
-
-/* 
- * This creates the 'nice_view_spi' label 
- * that the shield is specifically looking for.
- */
-nice_view_spi: &spi0 {
-    status = "okay";
 };
