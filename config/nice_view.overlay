@@ -4,6 +4,10 @@
     };
 };
 
-&spi0 {
+/* 
+ * This creates the 'nice_view_spi' label 
+ * that the shield is specifically looking for.
+ */
+nice_view_spi: &spi0 {
     status = "okay";
 };
