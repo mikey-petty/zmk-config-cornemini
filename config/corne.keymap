@@ -199,6 +199,11 @@
             key-positions = <20 21>;
             layers = <0>;
         };
+
+        CAPSWORD {
+            bindings = <&caps_word>;
+            key-positions = <37 40>;
+        };
     };
 
     //
