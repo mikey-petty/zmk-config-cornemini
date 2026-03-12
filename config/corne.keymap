@@ -238,10 +238,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC     &trans    &kp UP      &kp END          &kp HOME         &kp LS(STAR)  &kp N7        &kp N8       &kp N9        &kp EQUAL  &trans
-&trans  &hm LGUI A  &kp LEFT  &kp DOWN    &kp RIGHT        &kp PAGE_UP      &kp LS(PLUS)  &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &kp MINUS  &trans
-&trans  &kp DEL     &kp LEFT  &kp DOWN    &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp LS(STAR)  &kp N1        &kp N2       &kp N3        &kp FSLH   &kp BSPC
-                              &tog_off 2  &trans           &trans           &trans        &trans        &to 2
+&trans  &kp ESC     &trans    &kp UP      &kp END          &kp HOME         &kp LS(STAR)  &kp N7                  &kp N8       &kp N9        &kp EQUAL  &trans
+&trans  &hm LGUI A  &kp LEFT  &kp DOWN    &kp RIGHT        &kp PAGE_UP      &kp LS(PLUS)  &hm RCTRL N4            &hm RALT N5  &hm RSHFT N6  &kp MINUS  &trans
+&trans  &kp DEL     &kp LEFT  &kp DOWN    &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp LS(STAR)  &kp N1                  &kp N2       &kp N3        &kp FSLH   &kp BSPC
+                              &tog_off 2  &trans           &trans           &trans        &mt RETURN KP_NUMBER_0  &to 2
             >;
         };
 
