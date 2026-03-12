@@ -1,0 +1,9 @@
+{
+  aliases {
+    nice-view-spi = &spi0;
+  };
+};
+
+&spi0 {
+  status = "okay";
+};
