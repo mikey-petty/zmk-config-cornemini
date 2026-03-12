@@ -1,4 +1,4 @@
-{
+/ {
   aliases {
     nice-view-spi = &spi0;
   };
