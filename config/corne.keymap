@@ -268,7 +268,7 @@
 &trans  &kp ESCAPE  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp DOUBLE_QUOTES  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS   &kp EQUAL            &trans
 &trans  &trans      &trans          &trans          &trans           &kp UNDER    &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &hm RMETA AMPERSAND  &trans
 &trans  &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp GRAVE          &kp LBKT              &kp RIGHT_BRACKET      &kp EXCL   &kp LS(QMARK)        &trans
-                                    &tog_off 3      &kp LEFT         &kp RIGHT    &kp UP_ARROW       &kp DOWN              &to 3
+                                    &kp LEFT        &kp RIGHT        &tog 3       &tog 3             &kp UP_ARROW          &kp DOWN_ARROW
             >;
         };
 
@@ -289,6 +289,15 @@
 &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN    &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans            &trans  &trans     &trans     &trans  &trans  &trans
                                 &trans          &trans           &trans            &trans  &trans     &tog 5
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
